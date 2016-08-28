@@ -21,7 +21,7 @@ ASSETS_SLUG = PROJECT_SLUG
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'dailygraphics'
-REPOSITORY_URL = 'git@github.com:nprapps/%s.git' % REPOSITORY_NAME
+REPOSITORY_URL = 'git@github.com:brmayes/dailygraphics-kit.git'
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
 # Path to the folder containing the graphics
@@ -56,18 +56,18 @@ authomatic = Authomatic(authomatic_config, os.environ.get('AUTHOMATIC_SALT'))
 DEPLOYMENT
 """
 PRODUCTION_S3_BUCKET = {
-    'bucket_name': 'apps.npr.org',
-    'region': 'us-east-1'
+    'bucket_name': 'apps.brmayes.com',
+    'region': 'us-standard'
 }
 
 STAGING_S3_BUCKET = {
-    'bucket_name': 'stage-apps.npr.org',
-    'region': 'us-east-1'
+    'bucket_name': 'staging.brmayes.com',
+    'region': 'us-standard'
 }
 
 ASSETS_S3_BUCKET = {
-    'bucket_name': 'assets.apps.npr.org',
-    'region': 'us-east-1'
+    'bucket_name': 'assets.apps.brmayes.com',
+    'region': 'us-standard'
 }
 
 DEFAULT_MAX_AGE = 20
