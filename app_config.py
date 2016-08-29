@@ -77,9 +77,9 @@ ASSETS_MAX_AGE = 300
 ANALYTICS
 """
 
-GOOGLE_ANALYTICS = {
-    'ACCOUNT_ID': 'UA-5828686-75'
-}
+# GOOGLE_ANALYTICS = {
+#     'ACCOUNT_ID': 'UA-5828686-75'
+# }
 
 # These variables will be set at runtime. See configure_targets() below
 S3_BUCKET = None
